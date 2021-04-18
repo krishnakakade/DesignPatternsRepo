@@ -10,6 +10,7 @@ public class Singleton {
 	
 	public static Singleton getInstance()
 	{
+		System.out.println("object fetching");
 		if(singleton==null)
 		{
 			singleton = new Singleton();
